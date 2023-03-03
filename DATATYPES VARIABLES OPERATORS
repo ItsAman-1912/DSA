@@ -6,4 +6,8 @@ SO,
 n % 2 = 0 :: n is even
 n % 2 = 1 :: n is odd
 
+#include<iostrem>:: 
+HEADER FILE THAT LETS U WORK WITH INPUT OUTPUT OBJECTS SUCH AS COUT CIN ETC
+using namespace std::
+WE CAN USE NAMES FOR OBJECTS AND VARIABLES FROM STANDARD LIBRARY.
 
