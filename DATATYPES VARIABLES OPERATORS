@@ -1,0 +1,9 @@
+% OPERATOR:::
+It gives us the remainder 
+5 % 3 = 2
+6 % 2 = 0
+SO,
+n % 2 = 0 :: n is even
+n % 2 = 1 :: n is odd
+
+
