@@ -1,3 +1,17 @@
+#include<iostrem>:: 
+HEADER FILE THAT LETS U WORK WITH INPUT OUTPUT OBJECTS SUCH AS COUT CIN ETC
+using namespace std::
+WE CAN USE NAMES FOR OBJECTS AND VARIABLES FROM STANDARD LIBRARY.
+int main() {     }:::
+IT IS MAIN FUNCTION AND ALL CODES WRITTEN INSIDE THIS { } WILL BE EXECUTED.
+
+Compilation process:::
+SOURCE CODE IS CONVERTED INTO MACHINE EXECUTABLE FORMAT BY COMPILER . THEN IT WILL RUN AND GIVE THE RESULT.
+COMPILER HELPS IN CONVERSION INTO BINARY LANG AS WELL AS TO FIND ERRORS IN CODE.
+
+IDE ( INTEGRATED DEVELOPMENT ENVIRONMENT ):::
+Environment where we can write codes as well as run it easily .
+
 % OPERATOR:::
 It gives us the remainder 
 5 % 3 = 2
@@ -6,8 +20,38 @@ SO,
 n % 2 = 0 :: n is even
 n % 2 = 1 :: n is odd
 
-#include<iostrem>:: 
-HEADER FILE THAT LETS U WORK WITH INPUT OUTPUT OBJECTS SUCH AS COUT CIN ETC
-using namespace std::
-WE CAN USE NAMES FOR OBJECTS AND VARIABLES FROM STANDARD LIBRARY.
+DATATYPES AND VARIABLES:::
+int a = 5;
+variable name is a and its type is integer . memory size = 4byte = 32bits .
+and 5 will be stored in it . 
 
+DataType   	Size	               Description
+bool      1byte	           Stores true or false values.. true=1 false=0
+char	    1byte            Stores a single character/letter/number, or ASCII values
+int      	2or4 bytes	     Stores whole numbers, without decimals
+float     4 bytes	        Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
+double	  8 bytes       	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+
+1)
+bool b=2;
+cout<<b;
+>>> 1
+ 
+ b      cout
+ 0       0
+ 0.12    1
+ -0.09   1
+ 4567    1
+ true    1
+ false   0
+ 
+ 2)
+ char ::: stores single characters.. uses single quotes ..
+ uses ASCII values to display characters..
+ char C=67;
+ cout<<C;
+ >>>C
+ 
+ 3)
+ 
+ 
